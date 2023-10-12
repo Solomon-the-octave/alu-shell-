@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# use ps to list all processes with hierarchy & user-oriented format bt chriss
+ps aux --forest
