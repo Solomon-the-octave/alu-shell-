@@ -1,0 +1,9 @@
+#!/ysr/bin/env bash
+# Chriss, Bash script that displays to infinity:
+
+    while :
+     do 
+             echo "To infinity and beyond"
+             sleep 2
+             trap 'echo "I am invinciable!!!"' SIGTERM
+     done
